@@ -98,7 +98,7 @@ body {
  * ------------------------------------------------------------------- */
 
 a {
-    color: #00aeff;
+    color: #20a2ee;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -192,7 +192,7 @@ h6, .h06 {
 }
 
 .h01 a:hover {
-    color: #00aeff;
+    color: #20a2ee;
 }
 
 p img {
@@ -327,7 +327,7 @@ abbr[title], dfn[title] {
 }
 
 mark {
-    background: #00aeff;
+    background: #20a2ee;
     color: #000000;
 }
 
@@ -381,7 +381,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #00aeff;
+    background: #20a2ee;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -390,7 +390,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #00aeff;
+    color: #20a2ee;
 }
 
 dd {
@@ -521,7 +521,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #00aeff;
+    background: #20a2ee;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -566,7 +566,7 @@ form,
     margin-left: -30px;
     margin-top: -30px;
     padding: 0;
-    background-color: #00aeff;
+    background-color: #20a2ee;
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
     animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -760,7 +760,7 @@ label > input[type="checkbox"], label > input[type="radio"] {
  * ------------------------------------------------------------------- */
 
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #00aeff;
+    -webkit-text-fill-color: #20a2ee;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -784,7 +784,7 @@ input[type="button"] {
     line-height: calc(5.4rem - .6rem);
     padding: 0 3rem;
     margin: 0 .3rem 1.2rem 0;
-    color: #00aeff;
+    color: #20a2ee;
     text-decoration: none;
     cursor: pointer;
     text-align: center;
@@ -792,7 +792,7 @@ input[type="button"] {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #ffffff;
-    border: 1px solid #00aeff;
+    border: 1px solid #20a2ee;
 }
 
 .btn:hover, 
@@ -804,8 +804,8 @@ input[type="button"]:hover,
 input[type="submit"]:focus, 
 input[type="reset"]:focus, 
 input[type="button"]:focus {
-    background-color: #00aeff;
-    border: 1px solid #00aeff;
+    background-color: #20a2ee;
+    border: 1px solid #20a2ee;
     color: #fff;
     outline: 0;
 }
@@ -819,8 +819,8 @@ button.btn--primary,
 input[type="submit"].btn--primary, 
 input[type="reset"].btn--primary, 
 input[type="button"].btn--primary {
-    background: #00aeff;
-    border: 1px solid #00aeff;
+    background: #20a2ee;
+    border: 1px solid #20a2ee;
     color: #FFFFFF;
 }
 
@@ -835,8 +835,8 @@ input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus, 
 input[type="button"].btn--primary:focus {
     background: #fff;
-    border-color: #00aeff;
-    color: #00aeff;
+    border-color: #20a2ee;
+    color: #20a2ee;
 }
 
 
@@ -865,8 +865,8 @@ input[type="button"].btn--primary:focus {
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
-    border: 0.3rem solid #00aeff;
-    color: #00aeff;
+    border: 0.3rem solid #20a2ee;
+    color: #20a2ee;
 }
 
 .btn--pill, button.btn--pill {
@@ -920,7 +920,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .alert-box--success {
     background-color: #a6e3ff;
-    color: #00aeff;
+    color: #20a2ee;
 }
 
 .alert-box--info {
@@ -1092,7 +1092,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #00aeff;
+    color: #20a2ee;
 }
 
 .stats-tabs li a em {
@@ -1281,7 +1281,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h3 {
     font-family: "montserrat-semibold", sans-serif;
     font-size: 2rem;
-    color: #00aeff;
+    color: #20a2ee;
     text-transform: uppercase;
     letter-spacing: .15rem;
     margin-top: 0;
@@ -1385,11 +1385,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-date {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
-    color: #00aeff;
+    color: #20a2ee;
 }
 
 .blog-list .blog-date a {
-    color: #00aeff;
+    color: #20a2ee;
 }
 
 .blog-list .blog-date a:hover, 
@@ -1414,7 +1414,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-cat a:hover, 
 .blog-list .blog-cat a:focus, 
 .blog-list .blog-cat a:active {
-    color: #00aeff;
+    color: #20a2ee;
 }
 
 .blog-list .blog-cat a::after {
@@ -1465,7 +1465,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .s-header {
     width: 100%;
     height: 72px;
-    background-color: transparent;
+    background-color: #20a2ee;
     position: absolute;
     top: 0;
     z-index: 500;
@@ -1488,7 +1488,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .s-header.sticky {
     position: fixed;
     top: 0;
-    background-color: #000000 !important;
+    background-color: #20a2ee !important;
     opacity: 0;
     visibility: hidden;
     z-index: 600;
@@ -1532,6 +1532,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     outline: 0;
     border: none;
     width: 150px;
+    color: #000;
 
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -1666,7 +1667,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #00aeff;
+    color: #000;
 }
 
 
@@ -1781,7 +1782,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h3 {
     font-family: "montserrat-bold", sans-serif;
     font-size: 1.8rem;
-    color: #00aeff;
+    color: #20a2ee;
     text-transform: uppercase;
     letter-spacing: .5rem;
     position: relative;
@@ -1795,7 +1796,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     content: "";
     width: 60px;
     height: 2px;
-    background-color: #00aeff;
+    background-color: #20a2ee;
     margin-top: -1.5px;
     position: absolute;
     left: 0;
@@ -1858,8 +1859,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::after {
-    border-bottom: 2px solid #00aeff;
-    border-right: 2px solid #00aeff;
+    border-bottom: 2px solid #20a2ee;
+    border-right: 2px solid #20a2ee;
     content: '';
     display: block;
     height: 8px;
@@ -1933,7 +1934,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #00aeff;
+    color: #20a2ee;
     right: 3.6rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2254,7 +2255,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .timeline__bullet {
-    background: #00aeff;
+    background: #20a2ee;
     height: 1.5rem;
     width: 1.5rem;
     border-radius: 50%;
@@ -2625,7 +2626,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-testimonials {
-    background-color: #00aeff;
+    background-color: #20a2ee;
     background-image: url("../images/testimonial-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
@@ -2642,7 +2643,7 @@ html.no-csstransitions .home-content__main {
     width: 100%;
     height: 100%;
     opacity: .85;
-    background-color: #00aeff;
+    background-color: #20a2ee;
 }
 
 .testimonials-header {
@@ -2912,7 +2913,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-stats {
-    background-color: #00aeff;
+    background-color: #20a2ee;
     text-align: center;
 }
 
@@ -2933,7 +2934,7 @@ html.no-csstransitions .home-content__main {
 .stats__upsign i {
     font-size: 2.1rem;
     line-height: 1;
-    color: #00aeff;
+    color: #20a2ee;
 }
 
 .stats__count {
@@ -2991,7 +2992,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__col--highlight .stats__count::after {
-    background-color: #00aeff;
+    background-color: #20a2ee;
 }
 
 .stats__col--highlight h4 {
@@ -3098,7 +3099,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #000;
-    background: #00aeff;
+    background: #20a2ee;
 }
 
 .s-contact .form-field label::after {
@@ -3109,7 +3110,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #00aeff;
+    border-right: 5px solid #20a2ee;
 }
 
 .contact__main {
@@ -3126,7 +3127,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact__infos .h06 {
-    color: #00aeff;
+    color: #20a2ee;
 }
 
 .contact__form {
@@ -3142,7 +3143,7 @@ html.no-csstransitions .home-content__main {
     background-color: transparent;
     border-bottom: 1px solid #000000;
     margin-bottom: .9rem;
-    color: #00aeff;
+    color: #20a2ee;
 }
 
 .contact__form input[type="email"]:focus, 
@@ -3151,19 +3152,19 @@ html.no-csstransitions .home-content__main {
 .contact__form input[type="tel"]:focus, 
 .contact__form input[type="url"]:focus, 
 .contact__form textarea:focus {
-    color: #00aeff;
-    border-bottom: 1px solid #00aeff;
+    color: #20a2ee;
+    border-bottom: 1px solid #20a2ee;
 }
 
 .contact__form button {
     margin-top: 4.2rem;
-    background-color: #00aeff;
-    border-color: #00aeff;
+    background-color: #20a2ee;
+    border-color: #20a2ee;
 }
 
 .message-warning, .message-success {
     display: none;
-    background: #00aeff;
+    background: #20a2ee;
     font-size: 1.5rem;
     line-height: 2;
     padding: 3rem;
@@ -3176,7 +3177,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #00aeff;
+    color: #20a2ee;
 }
 
 .message-warning i, .message-success i {
@@ -3318,7 +3319,7 @@ footer {
 }
 
 footer a, footer a:visited {
-    color: #00aeff;
+    color: #20a2ee;
 }
 
 footer a:hover, footer a:focus {
