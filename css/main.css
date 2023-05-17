@@ -3394,13 +3394,14 @@ footer a:hover, footer a:focus {
 
 .footer-bottom .copyright span {
     display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-bottom .copyright span::after {
     content: "|";
     display: inline-block;
     padding: 0 1rem 0 1.2rem;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-bottom .copyright span:last-child::after {
@@ -3623,8 +3624,9 @@ article.blog-single .blog-content {
     color: #FFFFFF;
     position: relative;
     font-family: "librebaskerville-bold", serif;
-    font-size: 6.6rem;
+    font-size: 3rem;
     line-height: 1.227;
+    letter-spacing: 1.5px;
     margin-top: 0;
     margin-bottom: 3.6rem;
 }
@@ -3693,7 +3695,7 @@ article.blog-single .blog-content {
         font-size: 1.3rem;
     }
     .page-header__title {
-        font-size: 6rem;
+        font-size: 2rem;
     }
 }
 
@@ -3839,10 +3841,6 @@ article.blog-single .blog-content {
     position: relative;
 }
 
-.blog-content__nav {
-    padding-right: 220px;
-}
-
 .blog-content__nav:after {
     content: "";
     display: table;
@@ -3874,6 +3872,7 @@ article.blog-single .blog-content {
     width: 50%;
     float: left;
     padding-right: 2rem;
+    font-size: 1rem;
 }
 
 .blog-content__all {
