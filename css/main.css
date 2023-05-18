@@ -104,7 +104,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #191A3F;
+    color: #20a2ee93;
 }
 
 a:focus {
@@ -1396,6 +1396,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-date a:focus, 
 .blog-list .blog-date a:active {
     color: #000000;
+    color: #20a2ee;
 }
 
 .blog-list .blog-cat {
@@ -1425,6 +1426,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: none;
 }
 
+.unset-hover:hover {
+    color: #fff;
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
