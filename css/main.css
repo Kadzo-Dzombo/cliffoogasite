@@ -3168,20 +3168,22 @@ html.no-csstransitions .home-content__main {
 
 .message-warning, .message-success {
     display: none;
-    background: #20a2ee;
+    background: transparent;
     font-size: 1.5rem;
     line-height: 2;
-    padding: 3rem;
+    padding: 1rem;
     margin-bottom: 3.6rem;
     width: 100%;
 }
 
 .message-warning {
     color: #ff6163;
+    border: 1px solid #ff6163;
 }
 
 .message-success {
     color: #20a2ee;
+    border: 1px solid #20a2ee;
 }
 
 .message-warning i, .message-success i {
