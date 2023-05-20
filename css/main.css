@@ -104,7 +104,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #191A3F;
+    color: #20a2ee93;
 }
 
 a:focus {
@@ -1396,6 +1396,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-date a:focus, 
 .blog-list .blog-date a:active {
     color: #000000;
+    color: #20a2ee;
 }
 
 .blog-list .blog-cat {
@@ -1425,6 +1426,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: none;
 }
 
+.unset-hover:hover {
+    color: #fff;
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -1687,7 +1691,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         right: auto;
         top: 0;
         left: 0;
-        background-color: #000000;
+        background-color: #20a2ee;
         padding: 120px 40px 21px;
     }
     .header-nav-wrap .header-nav {
@@ -3164,20 +3168,22 @@ html.no-csstransitions .home-content__main {
 
 .message-warning, .message-success {
     display: none;
-    background: #20a2ee;
+    background: transparent;
     font-size: 1.5rem;
     line-height: 2;
-    padding: 3rem;
+    padding: 1rem;
     margin-bottom: 3.6rem;
     width: 100%;
 }
 
 .message-warning {
     color: #ff6163;
+    border: 1px solid #ff6163;
 }
 
 .message-success {
     color: #20a2ee;
+    border: 1px solid #20a2ee;
 }
 
 .message-warning i, .message-success i {
@@ -3394,13 +3400,14 @@ footer a:hover, footer a:focus {
 
 .footer-bottom .copyright span {
     display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-bottom .copyright span::after {
     content: "|";
     display: inline-block;
     padding: 0 1rem 0 1.2rem;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-bottom .copyright span:last-child::after {
@@ -3623,8 +3630,9 @@ article.blog-single .blog-content {
     color: #FFFFFF;
     position: relative;
     font-family: "librebaskerville-bold", serif;
-    font-size: 6.6rem;
+    font-size: 3rem;
     line-height: 1.227;
+    letter-spacing: 1.5px;
     margin-top: 0;
     margin-bottom: 3.6rem;
 }
@@ -3693,7 +3701,7 @@ article.blog-single .blog-content {
         font-size: 1.3rem;
     }
     .page-header__title {
-        font-size: 6rem;
+        font-size: 2rem;
     }
 }
 
@@ -3839,10 +3847,6 @@ article.blog-single .blog-content {
     position: relative;
 }
 
-.blog-content__nav {
-    padding-right: 220px;
-}
-
 .blog-content__nav:after {
     content: "";
     display: table;
@@ -3874,6 +3878,7 @@ article.blog-single .blog-content {
     width: 50%;
     float: left;
     padding-right: 2rem;
+    font-size: 1rem;
 }
 
 .blog-content__all {

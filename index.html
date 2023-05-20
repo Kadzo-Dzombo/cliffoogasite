@@ -29,11 +29,6 @@
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
 </head>
 
 <body id="top">
@@ -43,15 +38,15 @@
     <header class="s-header">
 
         <div class="header-logo">
-            <a href=""><b>CLIFF OOGA</b></a>
+            <a href="index.html"><b>CLIFF OOGA</b></a>
         </div>
 
         <nav class="header-nav-wrap">
             <ul class="header-nav">
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                 <li><a class=""  href="about.html" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#works" title="works">Contributions</a></li>
-                <li><a class="smoothscroll"  href="#blog" title="blog">Media</a></li>
+                <li><a class=""  href="blog.html" title="works">Contributions</a></li>
+                <li><a class=""  href="media.html" title="blog">Media</a></li>
                 <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
             </ul>
         </nav>
@@ -63,7 +58,7 @@
 
    <!-- home
    ================================================== -->
-   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="https://images.unsplash.com/photo-1511989130945-c2b632959395?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/23.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -76,15 +71,15 @@
 
                 <h1>
                     I am Cliff Ooga Obwogi. <br>
-                    I am a Researcher, Trainer & Lecturer
+                    A Researcher, Trainer & Lecturer
                     based in Nairobi, Kenya.
                 </h1>
 
                 <div class="home-content__buttons">
-                    <a href="#works" class="smoothscroll btn btn--stroke">
+                    <a href="blog.html" class="btn btn--stroke">
                         Latest Projects
                     </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
+                    <a href="about.html" class="btn btn--stroke">
                         More About Me
                     </a>
                 </div>
@@ -128,17 +123,23 @@
         <div class="row about-content">
 
             <div class="col-six tab-full left">
-                <h3><a href="">AN EXAMINATION OF THE AFRICAN GREAT LAKES REGION (AGLR):  THE RECONSTRUCTION OF UNDERDEVELOPED, WEAK, FRAGILE AND FAILED STATES</a></h3>
-                <div style="font-size: small; color: #000;">By Dr Cliff Ooga Obwogi, PhD</div>
+                <h3>
+                    <a href="">
+                        About Me
+                    </a>
+                </h3>
                 <hr>
                 <p>
-                    The African Great Lakes Region (AGLR) is composed of three countries: Burundi, Rwanda and DR Congo. This region is characterised by poor governance, poor health, slow economic development, poverty and poor protection of civilians. To help solve these challenges there has been contemporary warfare initiatives such as working to empower the states, working towards improved governance and leadership and towards improving the human development index in the countries. The united Nations and African Union have had various conflict interventions to solve the challenges.
+                    I am Major (Dr) Cliff Ooga Obwogi, a Researcher, Trainer and Lecturer in the Disciplines of Peace Support Operations, Media, Peace and Conflict Studies, Conflict/Crisis Management. I hold a Bachelor of Education Arts in English and Literature from Kenyatta University, a Diploma in Military Science from Egerton University, a Master of Arts in Communication Studies from the University of Nairobi and a PhD in Peace and Conflict Studies from Masinde Muliro University of Science and Technology. I have vast experience in Media, Peace & Conflict studies and Peace Support Operations. I am currently working at the International Peace Support Training Centre as a Researcher and also a Lecturer of National Defence University-Kenya.
+                </p>
+                <p>
+                    Resilience, commitment and ultimately hope are ingredients of scaling the mountains of life, they keep us going down the valleys and sailing on turbulent and deep sea waters of life. Hold onto them dearly (Obwogi C, 2020 )
                 </p>
                 
             </div>
 
             <div class="col-six tab-full right">
-                <img src="images/research.jpg" alt="academic paper">
+                <img src="images/33.jpg" alt="headshot">
             </div>
 
         </div> <!-- end about-content -->
@@ -146,10 +147,10 @@
         <div class="row about-content about-content--buttons">
 
             <div class="col-six tab-full left">
-                <a href="#0" class="btn btn--primary full-width">Read More</a>
+                <a href="about.html" class="btn btn--primary full-width">More About Me</a>
             </div>
             <div class="col-six tab-full right">
-                <a href="#0" class="btn full-width">Contact Me</a>
+                <a href="#contact" class="smoothscroll btn full-width">Contact Me</a>
             </div>
 
         </div> <!-- end about-content buttons -->
@@ -328,15 +329,15 @@
                 <h3>Contact</h3>
                 <h1>Say Hello.</h1>
                 
-                <!-- <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p> -->
+                <p class="lead"></p>
             </div>
         </div>
 
         <div class="row contact__main">
             <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="post" action="">
+                <form name="contactForm" id="contactForm" method="post" action="https://formsubmit.co/kadzomnyazi@email.com">
                     <fieldset>
-    
+                    <input type="hidden" name="_next" value="contact-redirect.html">
                     <div class="form-field">
                         <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                     </div>
@@ -439,7 +440,7 @@
             <div class="col-twelve">
                 <div class="copyright">
                     <span>© Copyright Cliff Ooga Obwogi 2023</span> 
-                    <span>Design by <a href="https://www.styleshout.com/">Diana Kadzo</a></span>	
+                    <span>Design by Diana Kadzo</span>	
                 </div>
 
                 <div class="go-top">
@@ -483,7 +484,7 @@
                 </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
                 "Next (arrow right)"></button>
                 <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
+                    <div class="pswp__caption__center"></div>  
                 </div>
             </div>
 
