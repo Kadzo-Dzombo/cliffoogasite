@@ -316,47 +316,29 @@
 
         <div class="row contact__main">
             <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="post" action="https://formsubmit.co/kadzomnyazi@email.com">
+                <form name="contactForm" id="contactForm" method="POST" action="https://formsubmit.co/kadzomnyazi@gmail.com">
                     <fieldset>
-                    <input type="hidden" name="_next" value="contact-redirect.html">
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="5" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
+                        <div class="form-field">
+                            <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                         </div>
-                    </div>
-    
+                        <div class="form-field">
+                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="5" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                        </div>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://sweet-longma-820930.netlify.app/">
+                        <div class="form-field">
+                            <button class="full-width btn--primary" type="submit">Submit</button>
+                        </div>
                     </fieldset>
                 </form>
-
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div> 
-            
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-                        
             </div>
+
             <div class="col-four tab-full contact__infos">
                 <h4 class="h06">Phone</h4>
                 <p>Phone: +254720022154<br>
@@ -391,16 +373,16 @@
                 </div>
 
                 <ul class="footer-social">
-                    <li><a href="#0">
+                    <li><a href="index.html">
                         <span>Home</span>
                     </a></li>
-                    <li><a href="#0">
+                    <li><a href="about.html">
                         <span>About</span>
                     </a></li>
-                    <li><a href="#0">
+                    <li><a href="blog.html">
                         <span>Contributions</span>
                     </a></li>
-                    <li><a href="#0">
+                    <li><a href="media.html">
                         <span>Media</span>
                     </a></li>
                     <li><a href="https://twitter.com/CliffObwogi?s=09">
