@@ -3085,12 +3085,6 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
-.s-contact .form-field:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .s-contact .form-field label {
     font-family: "montserrat-semibold", sans-serif;
     font-size: 1.1rem;
@@ -3107,7 +3101,6 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .form-field label::after {
-    content: "";
     position: absolute;
     left: -5px;
     top: 50%;
@@ -3164,61 +3157,6 @@ html.no-csstransitions .home-content__main {
     margin-top: 4.2rem;
     background-color: #20a2ee;
     border-color: #20a2ee;
-}
-
-.message-warning, .message-success {
-    display: none;
-    background: transparent;
-    font-size: 1.5rem;
-    line-height: 2;
-    padding: 1rem;
-    margin-bottom: 3.6rem;
-    width: 100%;
-}
-
-.message-warning {
-    color: #ff6163;
-    border: 1px solid #ff6163;
-}
-
-.message-success {
-    color: #20a2ee;
-    border: 1px solid #20a2ee;
-}
-
-.message-warning i, .message-success i {
-    margin-right: 10px;
-    font-size: 1.2rem;
-}
-
-
-/* form loader */
-
-.submit-loader {
-    display: none;
-    position: relative;
-    left: 0;
-    top: 1.8rem;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 4.2rem;
-}
-
-.submit-loader .text-loader {
-    display: none;
-    font-family: "montserrat-bold", sans-serif;
-    font-size: 1.4rem;
-    color: #FFFFFF;
-    letter-spacing: .2rem;
-    text-transform: uppercase;
-}
-
-.oldie .submit-loader .s-loader {
-    display: none;
-}
-
-.oldie .submit-loader .text-loader {
-    display: block;
 }
 
 
